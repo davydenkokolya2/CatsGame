@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur_room_background"
+    tools:context=".ui.win.WinFragment">
+
+
+    <ImageView
+        android:id="@+id/ivBackgroundCatWin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_grey_background_win"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnTryAgainWin"
+        android:layout_width="250dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="38dp"
+        android:src="@drawable/icon_rules_flag"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/knewave"
+        android:text="@string/try_again"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:translationZ="1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnTryAgainWin"
+        app:layout_constraintEnd_toEndOf="@+id/btnTryAgainWin"
+        app:layout_constraintStart_toStartOf="@+id/btnTryAgainWin"
+        app:layout_constraintTop_toTopOf="@+id/btnTryAgainWin" />
+
+    <TextView
+        android:id="@+id/tvScoreCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/knewave"
+        android:text="@string/_0"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:translationZ="1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView19"
+        app:layout_constraintEnd_toEndOf="@+id/imageView19"
+        app:layout_constraintStart_toStartOf="@+id/imageView19"
+        app:layout_constraintTop_toTopOf="@+id/imageView19" />
+
+    <TextView
+        android:id="@+id/tvScoreDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/knewave"
+        android:text="@string/_0"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:translationZ="1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView19"
+        app:layout_constraintEnd_toEndOf="@+id/imageView19"
+        app:layout_constraintStart_toStartOf="@+id/imageView19"
+        app:layout_constraintTop_toTopOf="@+id/imageView19" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/icon_background_score"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivCatWin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_grey_cat_win"
+        android:translationZ="-1dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivBackgroundDogWin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_ginger_background_win"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/ivBackgroundCatWin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ivBackgroundCatWin"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="51dp"
+        android:fontFamily="@font/knewave"
+        android:text="@string/win"
+        android:textColor="@color/white"
+        android:textSize="90sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivDogWin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_ginger_dog_win"
+        app:layout_constraintBottom_toBottomOf="@+id/ivCatWin"
+        app:layout_constraintEnd_toEndOf="@+id/ivBackgroundCatWin"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="@+id/ivBackgroundCatWin" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur_room_background"
+    tools:context=".ui.shop.ShopFragment">
+
+
+    <ImageView
+        android:id="@+id/btnBackShop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/icon_button_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/icon_pet_shop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="54dp"
+        android:src="@drawable/icon_background_score"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvMoneyCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/knewave"
+        android:text="@string/_0"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:translationZ="1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView29"
+        app:layout_constraintEnd_toEndOf="@+id/imageView29"
+        app:layout_constraintStart_toStartOf="@+id/imageView29"
+        app:layout_constraintTop_toTopOf="@+id/imageView29" />
+
+    <TextView
+        android:id="@+id/tvMoneyDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/knewave"
+        android:text="@string/_0"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:translationZ="1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView29"
+        app:layout_constraintEnd_toEndOf="@+id/imageView29"
+        app:layout_constraintStart_toStartOf="@+id/imageView29"
+        app:layout_constraintTop_toTopOf="@+id/imageView29" />
+
+    <TextView
+        android:id="@+id/tvMoneyBrush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/knewave"
+        android:text="@string/_1000"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnBrush"
+        app:layout_constraintEnd_toEndOf="@+id/btnBrush"
+        app:layout_constraintStart_toStartOf="@+id/btnBrush"
+        app:layout_constraintTop_toTopOf="@+id/btnBrush" />
+
+    <TextView
+        android:id="@+id/tvMoneyCollar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/knewave"
+        android:text="@string/_500"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnCollar"
+        app:layout_constraintEnd_toEndOf="@+id/btnCollar"
+        app:layout_constraintStart_toStartOf="@+id/btnCollar"
+        app:layout_constraintTop_toTopOf="@+id/btnCollar" />
+
+    <TextView
+        android:id="@+id/tvMoneyBowl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/knewave"
+        android:text="@string/_200"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnBowl"
+        app:layout_constraintEnd_toEndOf="@+id/btnBowl"
+        app:layout_constraintStart_toStartOf="@+id/btnBowl"
+        app:layout_constraintTop_toTopOf="@+id/btnBowl" />
+
+    <ImageView
+        android:id="@+id/btnBowl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="7dp"
+        android:src="@drawable/icon_background_score"
+        android:translationZ="1dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView30"
+        app:layout_constraintStart_toStartOf="@+id/imageView30"
+        app:layout_constraintTop_toBottomOf="@+id/imageView30" />
+
+    <ImageView
+        android:id="@+id/btnCollar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="7dp"
+        android:src="@drawable/icon_background_score"
+        android:translationZ="1dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView32"
+        app:layout_constraintStart_toStartOf="@+id/imageView32"
+        app:layout_constraintTop_toBottomOf="@+id/imageView32" />
+
+    <ImageView
+        android:id="@+id/btnBrush"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="7dp"
+        android:src="@drawable/icon_background_score"
+        android:translationZ="1dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView31"
+        app:layout_constraintStart_toStartOf="@+id/imageView31"
+        app:layout_constraintTop_toBottomOf="@+id/imageView31" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="110dp"
+        android:src="@drawable/icon_bowl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView31"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_brush"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView30"
+        app:layout_constraintTop_toTopOf="@+id/imageView30" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/icon_collar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView31"
+        app:layout_constraintStart_toEndOf="@+id/imageView30" />
+
+    <ImageView
+        android:id="@+id/ivCat"
+        android:layout_width="88dp"
+        android:layout_height="131dp"
+        android:layout_marginBottom="62dp"
+        android:src="@drawable/icon_choose_cat_no"
+        app:layout_constraintBottom_toTopOf="@+id/imageView32"
+        app:layout_constraintEnd_toStartOf="@+id/imageView31"
+        app:layout_constraintStart_toEndOf="@+id/imageView30" />
+
+    <ImageView
+        android:id="@+id/ivDog"
+        android:layout_width="88dp"
+        android:layout_height="131dp"
+        android:layout_marginBottom="62dp"
+        android:src="@drawable/icon_choose_dog_no"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imageView32"
+        app:layout_constraintEnd_toStartOf="@+id/imageView31"
+        app:layout_constraintStart_toEndOf="@+id/imageView30" />
+
+    <ImageView
+        android:id="@+id/btnCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_button_back"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imageView32"
+        app:layout_constraintEnd_toEndOf="@+id/ivCat"
+        app:layout_constraintStart_toStartOf="@+id/ivCat"
+        app:layout_constraintTop_toBottomOf="@+id/ivCat" />
+
+    <ImageView
+        android:id="@+id/btnDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="180"
+        android:src="@drawable/icon_button_back"
+        app:layout_constraintBottom_toTopOf="@+id/imageView32"
+        app:layout_constraintEnd_toEndOf="@+id/ivCat"
+        app:layout_constraintStart_toStartOf="@+id/ivCat"
+        app:layout_constraintTop_toBottomOf="@+id/ivCat" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">CatsGame</string>
+    <string name="choose_a_pet">Choose a pet</string>
+    <string name="_0">0</string>
+    <string name="defeat">Defeat</string>
+    <string name="try_again">try again</string>
+    <string name="text_rules">Choose your character, give her a name and get ready for your adventures together! Go through challenges with bones and knitting balls, don\'t forget to take care of your pet, he will be truly grateful to you</string>
+    <string name="skip">SKIP</string>
+    <string name="on">on</string>
+    <string name="off">off</string>
+    <string name="_1000">1000</string>
+    <string name="_500">500</string>
+    <string name="_200">200</string>
+    <string name="play">PLAY</string>
+    <string name="win">Win!</string>
 </resources>
